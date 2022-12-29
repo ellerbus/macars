@@ -27,4 +27,9 @@ Then, run
 ```
 npm run sass
 ```
+## Influencers
 
+* https://www.thelcars.com/
+* https://xiphoseer.de/htmlcars/
+* http://getskeleton.com/
+* http://getbootstrap.com/

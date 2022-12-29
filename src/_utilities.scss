@@ -27,7 +27,7 @@
 }
 
 @each $key,
-$value in $rems {
+$value in $sizes {
     .rt-curve-#{$key} {
         border-top-right-radius: $value;
     }
@@ -46,7 +46,7 @@ $value in $rems {
 }
 
 @each $key,
-$value in $rems {
+$value in $sizes {
 
     /**
      * PADDING

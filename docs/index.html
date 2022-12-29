@@ -41,7 +41,7 @@
             <div class="panel pb-8 color-purple-bg separator-bottom">
                 <a href="#">04-239456</a>
             </div>
-            <div class="panel pb-4 color-purple-bg separator-bottom">
+            <div class="panel pb-4 color-purple-bg separator-bottom full-height">
                 <a href="#">05-239456</a>
             </div>
         </div>
@@ -62,6 +62,19 @@
                     <h6>Heading 6</h6>
                 </div>
                 <div>
+                    <h2>Colors</h2>
+                    <p>
+                        The classes are named using the format
+                        <span class="color-white">color-{name}[-bg][-{shade}]</span>
+                    </p>
+                    <ul>
+                        <li>name - refer to the table below for valid colors</li>
+                        <li>bg - to color the background (optional) leave out if coloring text</li>
+                        <li>l or d - to shade lighter for darker</li>
+                    </ul>
+                    <p>
+                        Examples: color-white, color-white-bg, color-white-bg-d
+                    </p>
                     <table class="full-width">
                         <tr>
                             <th>color</th>
@@ -110,6 +123,82 @@
                         </tr>
                     </table>
                 </div>
+                <div>
+                    <h2>Buttons</h2>
+                    <p>
+                        Buttons fill the space horizontally, so they are best used
+                        with the grid system.
+                    </p>
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="button color-red-bg">
+                                div
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <a href="#" class="button color-orange-bg">
+                                anchor
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <button class="button color-blue-bg">
+                                button
+                            </button>
+                        </div>
+                        <div class="col-2">
+                            <a href="#" class="button color-yellow-bg">
+                                anchor
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <div class="button color-green-bg">
+                                button
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="button color-purple-bg">
+                                anchor
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Spacing</h2>
+                    <p>
+                        The classes are named using the format <span class="color-white">{property}{side}-{size}</span>.
+                    </p>
+                    <p>
+                        Where property is one of:
+                    </p>
+                    <ul>
+                        <li>m - for classes that set margin</li>
+                        <li>p - for classes that set padding</li>
+                    </ul>
+                    <p>
+                        Where sides is one of:
+                    </p>
+                    <ul>
+                        <li>blank - for all 4 sides</li>
+                        <li>t - top</li>
+                        <li>b - bottom</li>
+                        <li>l - left</li>
+                        <li>r - right</li>
+                    </ul>
+                    <p>
+                        Where size is one of:
+                    </p>
+                    <ul>
+                        <li>0 - eliminate margin or padding</li>
+                        <li>1 - 1rem</li>
+                        <li>2 - 2rem</li>
+                        <li>4 - 4rem</li>
+                        <li>6 - 6rem</li>
+                        <li>8 - 8rem</li>
+                    </ul>
+                    <p>
+                        Examples: pb-0, mt-1, etc.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="side-pane">
@@ -125,7 +214,7 @@
             <div class="panel pb-8 color-purple-bg separator-bottom">
                 <a href="#">04-239456</a>
             </div>
-            <div class="panel pb-4 color-purple-bg separator-bottom">
+            <div class="panel pb-4 color-purple-bg separator-bottom full-height">
                 <a href="#">05-239456</a>
             </div>
         </div>
