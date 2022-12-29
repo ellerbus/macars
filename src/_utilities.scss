@@ -22,6 +22,10 @@
     text-align: left;
 }
 
+.text-center {
+    text-align: center;
+}
+
 @each $key,
 $value in $rems {
     .rt-curve-#{$key} {

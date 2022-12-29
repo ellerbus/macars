@@ -21,7 +21,7 @@
             flex-direction: column;
         }
 
-        h1 {
+        h1.page-title {
             color: $color-orange;
             font-size: 4rem;
             margin: 0 2rem 0 0;
@@ -29,7 +29,6 @@
 
             .highlight {
                 color: $color-purple;
-                text-transform: uppercase;
 
                 &::before {
                     content: ' • ';
