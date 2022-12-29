@@ -1,0 +1,32 @@
+.panel {
+    width: 100%;
+    padding: 0.75rem;
+
+    @each $key,
+    $value in $rems {
+        &.rt-curve-#{$key} {
+            border-top-right-radius: $value;
+        }
+
+        &.rb-curve-#{$key} {
+            border-bottom-right-radius: $value;
+        }
+
+        &.lt-curve-#{$key} {
+            border-top-left-radius: $value;
+        }
+
+        &.lb-curve-#{$key} {
+            border-bottom-left-radius: $value;
+        }
+    }
+
+    &.border-bottom {
+        border-bottom: 5px solid #000;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+}

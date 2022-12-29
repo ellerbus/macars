@@ -1,0 +1,68 @@
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+@each $key,
+$value in $rems {
+
+    /**
+     * PADDING
+     */
+    .pt-#{$key} {
+        padding-top: $value;
+    }
+
+    .pr-#{$key} {
+        padding-right: $value;
+    }
+
+    .pb-#{$key} {
+        padding-bottom: $value;
+    }
+
+    .pl-#{$key} {
+        padding-left: $value;
+    }
+
+    .p-#{$key} {
+        padding: $value;
+    }
+
+    /**
+     * MARGIN
+     */
+    .mt-#{$key} {
+        margin-top: $value;
+    }
+
+    .mr-#{$key} {
+        margin-right: $value;
+    }
+
+    .mb-#{$key} {
+        margin-bottom: $value;
+    }
+
+    .ml-#{$key} {
+        margin-left: $value;
+    }
+
+    .m-#{$key} {
+        margin: $value;
+    }
+
+    /**
+     * HEIGHT, WIDTH
+     */
+    .h-#{$key} {
+        height: $value;
+    }
+
+    .w-#{$key} {
+        width: $value;
+    }
+}
