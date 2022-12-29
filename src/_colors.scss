@@ -4,7 +4,23 @@ $value in $colors {
         color: $value;
     }
 
+    .color-#{$key}-l {
+        color: lighten($value, $lighten);
+    }
+
+    .color-#{$key}-d {
+        color: darken($value, $darken);
+    }
+
     .color-#{$key}-bg {
         background-color: $value;
+    }
+
+    .color-#{$key}-l-bg {
+        background-color: lighten($value, $lighten);
+    }
+
+    .color-#{$key}-d-bg {
+        background-color: darken($value, $darken);
     }
 }

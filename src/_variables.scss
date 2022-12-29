@@ -1,8 +1,84 @@
 $lcars-font-family: 'Antonio', 'Arial Narrow', 'Avenir Next Condensed', sans-serif;
 
+$lighten: 5;
+$darken: 25;
+
+$color-black: #000000;
+$color-white: #f5f6fa;
+$color-purple: #cc33ff;
+$color-violet: #9944ff;
+$color-green: #33cc99;
+$color-red: #dd4444;
+$color-orange: #ff7700;
+$color-yellow: #ffcc33;
+/*
+
+04
+#cc4499
+magenta 
+05
+#4455ff
+blue 
+06
+#ffcc33
+yellow 
+07
+#9944ff
+violet 
+08
+#ff7700
+orange 
+09
+#cc88ff
+african-violet 
+10
+text
+#cc77ff 
+11
+#dd4444
+red 
+12
+#ffaa90
+almond 
+13
+#ffbbaa
+almond-creme 
+14
+#ffcc66
+sunflower 
+15
+#7788ff
+bluey 
+16
+#666688
+gray 
+17
+#aaaaff
+sky 
+18
+#88ccff
+ice 
+19
+#ffaa00
+gold 
+20
+#ff2200
+mars 
+21
+#ff8866
+peach 
+22
+#ff9966
+butterscotch 
+23
+#ff5555
+tomato 
+*/
+
 $colors: (
-    "white": #f5f6fa,
-    "purple":#cc33ff
+    "black": $color-black,
+    "white": $color-white,
+    "purple": $color-purple,
 );
 
 $rems: (
