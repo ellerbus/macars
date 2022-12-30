@@ -1,10 +1,10 @@
-# FACARS
+# MACARS
 
-This is my take on re-creating the LCARS interface ("Okudagrams") from the Star Trek
+This is my attempt on re-creating the LCARS interface ("Okudagrams") from the Star Trek
 television series using pure HTML / CSS. It's convention based see [index.html](index.html)
 for an example of it's usage. Disclaimer: I wanted a fully functional set of elements that
 included inputs and dropdowns - which I haven't been able to find any exmaples of - so this
-is not a fully compliant LCARS stylesheet.
+is not a fully compliant LCARS stylesheet - the purist in you will not like this take.
 
 ## License
 

@@ -8,10 +8,10 @@
 
     <div class="container">
         <div class="side-pane">
-            <div class="panel pt-2 color-purple-bg separator-bottom">
+            <div class="panel pt-2 bg-purple separator-bottom">
                 <a href="#">01-239456</a>
             </div>
-            <div class="panel lb-curve-6 pb-6 color-purple-bg">
+            <div class="panel elbow-bottom-left-6 pb-6 bg-purple">
                 <a href="#">02-239456</a>
             </div>
         </div>
@@ -20,35 +20,35 @@
                 <h1 class="page-title">SITENAME <span class="highlight">page</span></h1>
             </div>
             <div>Hi Saige!</div>
-            <div class="h-2 color-purple-bg">
-                <div class="h-2 lb-curve-1 color-black-bg"></div>
+            <div class="h-2 bg-purple">
+                <div class="h-2 elbow-bottom-left-1 bg-black"></div>
             </div>
-            <div class="h-2 color-purple-bg"></div>
+            <div class="h-2 bg-purple"></div>
         </div>
     </div>
 
     <div class="container separator-top">
         <div class="side-pane">
-            <div class="panel lt-curve-6 pt-6 color-purple-bg separator-bottom">
+            <div class="panel elbow-top-left-6 pt-6 bg-purple separator-bottom">
                 <a href="#">01-239456</a>
             </div>
-            <div class="panel pt-4 color-purple-bg separator-bottom">
+            <div class="panel pt-4 bg-purple separator-bottom">
                 <a href="#">02-239456</a>
             </div>
-            <div class="panel pb-4 color-purple-bg separator-bottom">
+            <div class="panel pb-4 bg-purple separator-bottom">
                 <a href="#">03-239456</a>
             </div>
-            <div class="panel pb-8 color-purple-bg separator-bottom">
+            <div class="panel pb-8 bg-purple separator-bottom">
                 <a href="#">04-239456</a>
             </div>
-            <div class="panel pb-4 color-purple-bg separator-bottom full-height">
+            <div class="panel pb-4 bg-purple separator-bottom full-height">
                 <a href="#">05-239456</a>
             </div>
         </div>
         <div class="main-pane full-width">
-            <div class="h-1 color-purple-bg"></div>
-            <div class="h-1 color-purple-bg">
-                <div class="h-1 lt-curve-1 color-black-bg">
+            <div class="h-1 bg-purple"></div>
+            <div class="h-1 bg-purple">
+                <div class="h-1 elbow-top-left-1 bg-black">
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                         </p>
                     </div>
                     <div class="col-6">
-                        <h1>Heading 1 <span class="color-purple-d">other text</span> </h1>
+                        <h1>Heading 1 <span class="text-purple-darkark">other text</span> </h1>
                         <h2>Heading 2</h2>
                         <h3>Heading 3</h3>
                         <h4>Heading 4</h4>
@@ -83,15 +83,15 @@
                     <h2>Colors</h2>
                     <p>
                         The classes are named using the format
-                        <span class="color-white">color-{name}[-bg][-{shade}]</span>
+                        <span class="text-white">text-{color}[-{shade}]</span> or
+                        <span class="bg-white">bg-{color}[-{shade}]</span> or
                     </p>
                     <ul>
-                        <li>name - refer to the table below for valid colors</li>
-                        <li>bg (optional) - to color the background leave out if coloring text</li>
-                        <li>l or d (optional) - to shade lighter for darker</li>
+                        <li>color - refer to the table below for valid colors</li>
+                        <li>light or dark (optional) - to shade lighter for darker</li>
                     </ul>
                     <p>
-                        Examples: color-white, color-white-bg, color-white-bg-d
+                        Examples: text-white, bg-white, bg-white-dark
                     </p>
                     <table class="full-width">
                         <tr>
@@ -100,44 +100,44 @@
                             <th>color dark</th>
                         </tr>
                         <tr>
-                            <td class="text-center color-black">color-black</td>
-                            <td class="text-center color-black-l">color-black-l</td>
-                            <td class="text-center color-black-d">color-black-d</td>
+                            <td class="text-center text-black">text-black</td>
+                            <td class="text-center text-black-light">text-black-light</td>
+                            <td class="text-center text-black-dark">text-black-dark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-gray">color-gray</td>
-                            <td class="text-center color-gray-l">color-gray-l</td>
-                            <td class="text-center color-gray-d">color-gray-d</td>
+                            <td class="text-center text-gray">text-gray</td>
+                            <td class="text-center text-gray-light">text-gray-light</td>
+                            <td class="text-center text-gray-dark">text-gray-dark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-white">color-white</td>
-                            <td class="text-center color-white-l">color-white-l</td>
-                            <td class="text-center color-white-d">color-white-d</td>
+                            <td class="text-center text-white">text-white</td>
+                            <td class="text-center text-white-light">text-white-light</td>
+                            <td class="text-center text-white-dark">text-white-dark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-purple">color-purple</td>
-                            <td class="text-center color-purple-l">color-purple-l</td>
-                            <td class="text-center color-purple-d">color-purple-d</td>
+                            <td class="text-center text-purple">text-purple</td>
+                            <td class="text-center text-purple-light">text-purple-light</td>
+                            <td class="text-center text-purple-darkark">text-purple-darkark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-blue">color-blue</td>
-                            <td class="text-center color-blue-l">color-blue-l</td>
-                            <td class="text-center color-blue-d">color-blue-d</td>
+                            <td class="text-center text-blue">text-blue</td>
+                            <td class="text-center text-blue-light">text-blue-light</td>
+                            <td class="text-center text-blue-dark">text-blue-dark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-green">color-green</td>
-                            <td class="text-center color-green-l">color-green-l</td>
-                            <td class="text-center color-green-d">color-green-d</td>
+                            <td class="text-center text-green">text-green</td>
+                            <td class="text-center text-green-light">text-green-light</td>
+                            <td class="text-center text-green-dark">text-green-dark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-red">color-red</td>
-                            <td class="text-center color-red-l">color-red-l</td>
-                            <td class="text-center color-red-d">color-red-d</td>
+                            <td class="text-center text-red">text-red</td>
+                            <td class="text-center text-red-light">text-red-light</td>
+                            <td class="text-center text-red-dark">text-red-dark</td>
                         </tr>
                         <tr>
-                            <td class="text-center color-orange">color-orange</td>
-                            <td class="text-center color-orange-l">color-orange-l</td>
-                            <td class="text-center color-orange-d">color-orange-d</td>
+                            <td class="text-center text-orange">text-orange</td>
+                            <td class="text-center text-orange-light">text-orange-light</td>
+                            <td class="text-center text-orange-dark">text-orange-dark</td>
                         </tr>
                     </table>
                 </div>
@@ -149,32 +149,32 @@
                     </p>
                     <div class="row">
                         <div class="col-1">
-                            <div class="button color-red-bg">
+                            <div class="button bg-red">
                                 div
                             </div>
                         </div>
                         <div class="col-1">
-                            <a href="#" class="button color-orange-bg">
+                            <a href="#" class="button bg-orange">
                                 anchor
                             </a>
                         </div>
                         <div class="col-2">
-                            <button class="button color-blue-bg">
+                            <button class="button bg-blue">
                                 button
                             </button>
                         </div>
                         <div class="col-2">
-                            <a href="#" class="button color-yellow-bg">
+                            <a href="#" class="button bg-yellow">
                                 anchor
                             </a>
                         </div>
                         <div class="col-3">
-                            <div class="button color-green-bg">
+                            <div class="button bg-green">
                                 div
                             </div>
                         </div>
                         <div class="col-3">
-                            <a href="#" class="button color-purple-bg">
+                            <a href="#" class="button bg-purple">
                                 anchor
                             </a>
                         </div>
@@ -183,7 +183,7 @@
                 <div>
                     <h2>Spacing</h2>
                     <p>
-                        The classes are named using the format <span class="color-white">{property}{side}-{size}</span>.
+                        The classes are named using the format <span class="text-white">{property}{side}-{size}</span>.
                     </p>
                     <p>
                         Where property is one of:
@@ -217,22 +217,257 @@
                         Examples: pb-0, mt-1, etc.
                     </p>
                 </div>
+                <div>
+                    <h2>Forms</h2>
+                    <div class="bs-darkocs-section">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bs-component">
+                                    <form>
+                                        <fieldset>
+                                            <legend>Legend</legend>
+                                            <div class="form-group row">
+                                                <label for="staticEmail"
+                                                    class="col-sm-2 col-form-lightabel">Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" readonly="" class="form-control-plaintext"
+                                                        id="staticEmail" value="email@example.com">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1" class="form-lightabel mt-4">Email
+                                                    address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-darkescribedby="emailHelp" placeholder="Enter email">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share
+                                                    your email with anyone else.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1"
+                                                    class="form-lightabel mt-4">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                                    placeholder="Password">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleSelect1" class="form-lightabel mt-4">Example
+                                                    select</label>
+                                                <select class="form-select" id="exampleSelect1">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleSelect2" class="form-lightabel mt-4">Example multiple
+                                                    select</label>
+                                                <select multiple="" class="form-select" id="exampleSelect2">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleTextarea" class="form-lightabel mt-4">Example
+                                                    textarea</label>
+                                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formFile" class="form-lightabel mt-4">Default file input
+                                                    example</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+                                            <fieldset class="form-group">
+                                                <legend class="mt-4">Radio buttons</legend>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="optionsRadios"
+                                                        id="optionsRadios1" value="option1" checked="">
+                                                    <label class="form-check-lightabel" for="optionsRadios1">
+                                                        Option one is this and that—be sure to include why it's great
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="optionsRadios"
+                                                        id="optionsRadios2" value="option2">
+                                                    <label class="form-check-lightabel" for="optionsRadios2">
+                                                        Option two can be something else and selecting it will deselect
+                                                        option one
+                                                    </label>
+                                                </div>
+                                                <div class="form-check disabled">
+                                                    <input class="form-check-input" type="radio" name="optionsRadios"
+                                                        id="optionsRadios3" value="option3" disabled="">
+                                                    <label class="form-check-lightabel" for="optionsRadios3">
+                                                        Option three is disabled
+                                                    </label>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="form-group">
+                                                <legend class="mt-4">Checkboxes</legend>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-lightabel" for="flexCheckDefault">
+                                                        Default checkbox
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckChecked" checked="">
+                                                    <label class="form-check-lightabel" for="flexCheckChecked">
+                                                        Checked checkbox
+                                                    </label>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="form-group">
+                                                <legend class="mt-4">Switches</legend>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        id="flexSwitchCheckDefault">
+                                                    <label class="form-check-lightabel"
+                                                        for="flexSwitchCheckDefault">Default
+                                                        switch checkbox input</label>
+                                                </div>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        id="flexSwitchCheckChecked" checked="">
+                                                    <label class="form-check-lightabel"
+                                                        for="flexSwitchCheckChecked">Checked
+                                                        switch checkbox input</label>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="form-group">
+                                                <legend class="mt-4">Ranges</legend>
+                                                <label for="customRange1" class="form-lightabel">Example range</label>
+                                                <input type="range" class="form-range" id="customRange1">
+                                                <label for="disabledRange" class="form-lightabel">Disabled range</label>
+                                                <input type="range" class="form-range" id="disabledRange" disabled="">
+                                                <label for="customRange3" class="form-lightabel">Example range</label>
+                                                <input type="range" class="form-range" min="0" max="5" step="0.5"
+                                                    id="customRange3">
+                                            </fieldset>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </fieldset>
+                                    </form>
+                                    <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
+                                            class="bi bi-code"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lightg-4 offset-lightg-1">
+                                <form class="bs-component">
+                                    <div class="form-group">
+                                        <fieldset disabled="">
+                                            <label class="form-lightabel" for="disabledInput">Disabled input</label>
+                                            <input class="form-control" id="disabledInput" type="text"
+                                                placeholder="Disabled input here..." disabled="">
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <fieldset>
+                                            <label class="form-lightabel mt-4" for="readOnlyInput">Readonly
+                                                input</label>
+                                            <input class="form-control" id="readOnlyInput" type="text"
+                                                placeholder="Readonly input here..." readonly="">
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="form-group has-success">
+                                        <label class="form-lightabel mt-4" for="inputValid">Valid input</label>
+                                        <input type="text" value="correct value" class="form-control is-valid"
+                                            id="inputValid">
+                                        <div class="valid-feedback">Success! You've done it.</div>
+                                    </div>
+
+                                    <div class="form-group has-darkanger">
+                                        <label class="form-lightabel mt-4" for="inputInvalid">Invalid input</label>
+                                        <input type="text" value="wrong value" class="form-control is-invalid"
+                                            id="inputInvalid">
+                                        <div class="invalid-feedback">Sorry, that username's taken. Try another?</div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-form-lightabel col-form-lightabel-lightg mt-4"
+                                            for="inputLarge">Large
+                                            input</label>
+                                        <input class="form-control form-control-lightg" type="text"
+                                            placeholder=".form-control-lightg" id="inputLarge">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-form-lightabel mt-4" for="inputDefault">Default input</label>
+                                        <input type="text" class="form-control" placeholder="Default input"
+                                            id="inputDefault">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-form-lightabel col-form-lightabel-sm mt-4"
+                                            for="inputSmall">Small
+                                            input</label>
+                                        <input class="form-control form-control-sm" type="text"
+                                            placeholder=".form-control-sm" id="inputSmall">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-lightabel mt-4">Input addons</label>
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text">$</span>
+                                                <input type="text" class="form-control"
+                                                    aria-lightabel="Amount (to the nearest dollar)">
+                                                <span class="input-group-text">.00</span>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Recipient's username"
+                                                    aria-lightabel="Recipient's username"
+                                                    aria-darkescribedby="button-addon2">
+                                                <button class="btn btn-primary" type="button"
+                                                    id="button-addon2">Button</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-lightabel mt-4">Floating labels</label>
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="password" class="form-control" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                    </div>
+                                    <button class="source-button btn btn-primary btn-xs" type="button" tabindex="0"><i
+                                            class="bi bi-code"></i></button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="side-pane">
-            <div class="panel rt-curve-6 pt-6 color-purple-bg separator-bottom">
+            <div class="panel elbow-top-right-6 pt-6 bg-purple separator-bottom">
                 <a href="#">01-239456</a>
             </div>
-            <div class="panel pt-4 color-purple-bg separator-bottom">
+            <div class="panel pt-4 bg-purple separator-bottom">
                 <a href="#">02-239456</a>
             </div>
-            <div class="panel pb-4 color-purple-bg separator-bottom">
+            <div class="panel pb-4 bg-purple separator-bottom">
                 <a href="#">03-239456</a>
             </div>
-            <div class="panel pb-8 color-purple-bg separator-bottom">
+            <div class="panel pb-8 bg-purple separator-bottom">
                 <a href="#">04-239456</a>
             </div>
-            <div class="panel pb-4 color-purple-bg separator-bottom full-height">
+            <div class="panel pb-4 bg-purple separator-bottom full-height">
                 <a href="#">05-239456</a>
             </div>
         </div>

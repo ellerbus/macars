@@ -28,25 +28,6 @@
 
 @each $key,
 $value in $sizes {
-    .rt-curve-#{$key} {
-        border-top-right-radius: $value;
-    }
-
-    .rb-curve-#{$key} {
-        border-bottom-right-radius: $value;
-    }
-
-    .lt-curve-#{$key} {
-        border-top-left-radius: $value;
-    }
-
-    .lb-curve-#{$key} {
-        border-bottom-left-radius: $value;
-    }
-}
-
-@each $key,
-$value in $sizes {
 
     /**
      * PADDING
@@ -103,5 +84,26 @@ $value in $sizes {
 
     .w-#{$key} {
         width: $value;
+    }
+}
+
+
+
+@each $key,
+$value in $sizes {
+    .elbow-top-right-#{$key} {
+        border-top-right-radius: $value;
+    }
+
+    .elbow-bottom-right-#{$key} {
+        border-bottom-right-radius: $value;
+    }
+
+    .elbow-top-left-#{$key} {
+        border-top-left-radius: $value;
+    }
+
+    .elbow-bottom-left-#{$key} {
+        border-bottom-left-radius: $value;
     }
 }
