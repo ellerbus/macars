@@ -1,8 +1,8 @@
-.button {
+.btn {
     display: block;
     cursor: pointer;
-    border-radius: 1.35rem;
     height: 3rem;
+    width: 100%;
     padding: 1.25rem 1.5rem 1rem;
     margin: 0;
     border-width: 0;
@@ -11,10 +11,9 @@
     font-family: $lcars-font-family;
     font-weight: bold;
     font-size: 1rem;
-    width: 100%;
     line-height: normal;
     text-decoration: none;
-    color: #000;
+    color: $color-black;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -23,5 +22,9 @@
     &:hover {
         filter: brightness(70%);
         outline: none;
+    }
+
+    &.btn-rounded {
+        border-radius: 1.35rem;
     }
 }

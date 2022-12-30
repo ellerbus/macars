@@ -302,11 +302,11 @@ table td {
   border-bottom: 1px solid #a0aad0;
   padding: 0.5rem; }
 
-.button {
+.btn {
   display: block;
   cursor: pointer;
-  border-radius: 1.35rem;
   height: 3rem;
+  width: 100%;
   padding: 1.25rem 1.5rem 1rem;
   margin: 0;
   border-width: 0;
@@ -315,17 +315,111 @@ table td {
   font-family: "Antonio", "Arial Narrow", "Avenir Next Condensed", sans-serif;
   font-weight: bold;
   font-size: 1rem;
-  width: 100%;
   line-height: normal;
   text-decoration: none;
-  color: #000;
+  color: #000000;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .button:hover {
+  .btn:hover {
     filter: brightness(70%);
     outline: none; }
+  .btn.btn-rounded {
+    border-radius: 1.35rem; }
+
+label {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  padding: 1.25rem 1rem 1rem;
+  background-color: #cc33ff;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: normal;
+  color: #000000; }
+  label.round-left {
+    border-top-left-radius: 1.35rem;
+    border-bottom-left-radius: 1.35rem; }
+  label.round-right {
+    border-top-right-radius: 1.35rem;
+    border-bottom-right-radius: 1.35rem; }
+
+input,
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=tel],
+input[type=url],
+input[type=password] {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  margin: 0;
+  border-width: 0;
+  padding: 0.6rem 0 0 1.35rem;
+  background-color: #df80ff;
+  text-transform: uppercase;
+  font-family: "Antonio", "Arial Narrow", "Avenir Next Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: normal;
+  color: #000000;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  input.round-left,
+  input[type=email].round-left,
+  input[type=number].round-left,
+  input[type=search].round-left,
+  input[type=text].round-left,
+  input[type=tel].round-left,
+  input[type=url].round-left,
+  input[type=password].round-left {
+    border-top-left-radius: 1.35rem;
+    border-bottom-left-radius: 1.35rem; }
+  input.round-right,
+  input[type=email].round-right,
+  input[type=number].round-right,
+  input[type=search].round-right,
+  input[type=text].round-right,
+  input[type=tel].round-right,
+  input[type=url].round-right,
+  input[type=password].round-right {
+    border-top-right-radius: 1.35rem;
+    border-bottom-right-radius: 1.35rem; }
+
+select {
+  display: block;
+  height: 3rem;
+  width: 100%;
+  margin: 0;
+  border-width: 0;
+  padding: 0.6rem 0 0 1.35rem;
+  background-color: #df80ff;
+  text-transform: uppercase;
+  font-family: "Antonio", "Arial Narrow", "Avenir Next Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: normal;
+  color: #000000;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+  select.round-left {
+    border-top-left-radius: 1.35rem;
+    border-bottom-left-radius: 1.35rem; }
+  select.round-right {
+    border-top-right-radius: 1.35rem;
+    border-bottom-right-radius: 1.35rem; }
 
 .container {
   display: flex;
