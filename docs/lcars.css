@@ -328,6 +328,23 @@ table td {
   .btn.btn-rounded {
     border-radius: 1.35rem; }
 
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  49% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+  .btn.blink-slow {
+    animation: blink 3s infinite;
+    animation-delay: 1s; }
+  .btn.blink {
+    animation: blink 2s infinite;
+    animation-delay: 1s; }
+  .btn.blink-fast {
+    animation: blink 1s infinite;
+    animation-delay: 1s; }
+
 label {
   display: block;
   height: 3rem;
