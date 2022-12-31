@@ -1,0 +1,13 @@
+table {
+
+    th {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    th,
+    td {
+        border-bottom: 1px solid darken($color-white, $darken);
+        padding: 0.5rem;
+    }
+}

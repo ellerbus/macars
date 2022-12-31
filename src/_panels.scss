@@ -1,0 +1,11 @@
+.panel {
+    display: block;
+    padding: 0.75rem;
+    width: 100%;
+
+    color: $color-black;
+}
+
+a.panel:hover {
+    filter: brightness(70%);
+}

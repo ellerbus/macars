@@ -1,0 +1,23 @@
+:root {
+    font-size: 1rem;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: $color-black;
+    font-family: $lcars-font-family;
+    line-height: 1.5;
+    color: #c7f;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}

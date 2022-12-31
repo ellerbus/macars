@@ -1,0 +1,63 @@
+.btn {
+    display: block;
+    cursor: pointer;
+    height: 3rem;
+    padding: 1.25rem 1.5rem 1rem;
+    margin: 0;
+    border-width: 0;
+    background-color: $color-purple;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: $lcars-font-family;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: normal;
+    text-decoration: none;
+    color: $color-black;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    &:hover {
+        filter: brightness(70%);
+        outline: none;
+    }
+
+    &.btn-rounded {
+        border-radius: 1.35rem;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0
+        }
+
+        49% {
+            opacity: 0
+        }
+
+        50% {
+            opacity: 1
+        }
+    }
+
+    &.blink-slow {
+        animation: blink 3s infinite;
+        animation-delay: 1s;
+    }
+
+    &.blink {
+        animation: blink 2s infinite;
+        animation-delay: 1s;
+    }
+
+    &.blink-fast {
+        animation: blink 1s infinite;
+        animation-delay: 1s;
+    }
+}
+
+button.btn {
+    width: 100%;
+}
