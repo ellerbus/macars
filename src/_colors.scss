@@ -1,26 +1,26 @@
 @each $key,
 $value in $colors {
     .text-#{$key} {
-        color: $value;
+        color: $value !important;
     }
 
     .text-#{$key}-light {
-        color: lighten($value, $lighten);
+        color: lighten($value, $lighten) !important;
     }
 
     .text-#{$key}-dark {
-        color: darken($value, $darken);
+        color: darken($value, $darken) !important;
     }
 
     .bg-#{$key} {
-        background-color: $value;
+        background-color: $value !important;
     }
 
     .bg-#{$key}-light {
-        background-color: lighten($value, $lighten);
+        background-color: lighten($value, $lighten) !important;
     }
 
     .bg-#{$key}-dark {
-        background-color: darken($value, $darken);
+        background-color: darken($value, $darken) !important;
     }
 }
