@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "scssFormatter.printWidth": 120,
+    "scssFormatter.trailingComma": "all",
+    "liveSassCompile.settings.compileOnWatch": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/docs",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.indentSize": "tabSize"
+    },
+    "[scss]": {
+        "editor.tabSize": 4,
+        "editor.indentSize": "tabSize"
+    }
+}

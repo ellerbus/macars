@@ -1,5 +1,4 @@
 @mixin rounded-sides($rounded-radius: 1.35rem) {
-
     &.round-left {
         border-top-left-radius: $rounded-radius;
         border-bottom-left-radius: $rounded-radius;
@@ -11,86 +10,69 @@
     }
 }
 
-
 label {
-    display: block;
-    height: 3rem;
+    display: inline-block;
+    background-color: $color-black;
+    color: $color-saffron;
+    position: relative;
+    height: 1.5rem;
     width: 100%;
-    padding: 1.25rem 1rem 1rem;
-    background-color: $color-purple;
     text-align: right;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.9rem;
-    line-height: normal;
-    color: $color-black;
-
-    @include rounded-sides();
-}
-
-input,
-input[type=email],
-input[type=number],
-input[type=search],
-input[type=text],
-input[type=tel],
-input[type=url],
-input[type=password] {
-    display: block;
-    height: 3rem;
-    width: 100%;
-    margin: 0;
-    border-width: 0;
-    padding: 0.6rem 0 0 1.35rem;
-    background-color: lighten($color-purple, $lighten);
-    // text-align: right;
-    text-transform: uppercase;
-    font-family: $lcars-font-family;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: normal;
-    color: $color-black;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-    @include rounded-sides();
-
-    &:disabled {
-        background-color: $color-gray;
-        color: $color-black;
+    vertical-align: top;
+    padding-right: 1rem;
+    padding-top: 1px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    &::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        height: 1.75rem;
+        width: 0.5rem;
+        background-color: $color-amber;
+        right: 0;
+        top: 0;
+        animation: blink 3s infinite;
+        animation-delay: 0.5s;
     }
 }
 
-
+input,
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
 select {
     display: block;
-    height: 3rem;
+    background-color: $color-black;
+    color: $color-white;
+    position: relative;
+    font-size: 1rem;
+    height: 1.5rem;
     width: 100%;
-    margin: 0;
-    border-width: 0;
-    padding: 0.6rem 0 0 1.35rem;
-    background-color: lighten($color-purple, $lighten);
-    // text-align: right;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-width: 0px;
     text-transform: uppercase;
     font-family: $lcars-font-family;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: normal;
-    color: $color-black;
+    user-select: none;
+    appearance: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    user-select: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
-
-    @include rounded-sides();
-
     &:disabled {
-        background-color: $color-gray;
-        color: $color-black;
+        color: $color-gray;
     }
 }

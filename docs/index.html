@@ -1,297 +1,613 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>MACARS</title>
-    <link rel="stylesheet" href="lcars.css" />
+  <title>MACARS</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="lcars.css" />
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="side-pane">
-            <a class="panel pt-2 bg-purple separator-bottom" href="#">
-                01-239456
-            </a>
-            <div class="panel elbow-bottom-left-6 pb-6 bg-purple">
-                02-239456
-            </div>
-        </div>
-        <div class="main-pane full-width stack-bottom">
-            <a href="https://github.com/ellerbus/macars" class="float-right" style="position: relative;"><img
-                    decoding="async" loading="lazy" width="149" height="149"
-                    style="position: absolute; top: 0px; right: 0px;"
-                    src="https://github.blog/wp-content/uploads/2008/12/forkme_right_red_aa0000.png?resize=149%2C149"
-                    class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-            <div class="full-height">
-                <h1 class="page-title">SITENAME <span class="highlight">page</span></h1>
-            </div>
-            <div class="ml-2">Hello World</div>
-            <div class="h-2 bg-purple">
-                <div class="h-2 elbow-bottom-left-1 bg-black"></div>
-            </div>
-            <div class="h-2 bg-purple"></div>
-        </div>
-    </div>
+  <div class="lcars-container">
+    <div class="lcars-left-pane">
 
-    <div class="container separator-top">
-        <div class="side-pane">
-            <div class="panel elbow-top-left-6 pt-6 bg-purple separator-bottom">
-                01-239456
-            </div>
-            <div class="panel pt-4 bg-purple separator-bottom">
-                02-239456
-            </div>
-            <a class="panel py-1 bg-orange separator-bottom">
-                Link #1
-            </a>
-            <a class="panel py-1 bg-orange separator-bottom">
-                Link #2
-            </a>
-            <div class="panel pb-8 bg-purple separator-bottom">
-                04-239456
-            </div>
-            <div class="panel pb-4 bg-purple separator-bottom full-height">
-                05-239456
-            </div>
-        </div>
-        <div class="main-pane full-width">
-            <div class="h-1 bg-purple"></div>
-            <div class="h-1 bg-purple">
-                <div class="h-1 elbow-top-left-1 bg-black">
-                </div>
-            </div>
+      <div class="lcars-panel bottom-right">
+        <div class="label">654-49985</div>
+      </div>
 
-            <div class="p-1">
-                <div class="row">
-                    <div class="col-6">
-                        <h3>paragraph</h3>
-                        <p class="mr-2">
-                            <b>Lorem ipsum dolor</b> sit amet, consectetur adipiscing elit. Mauris justo sapien, gravida
-                            <i>leoa, posuere rhoncus sapien</i>.
-                            Proin eget enim et dolor vestibulum fermentum. Vestibulum blandit
-                            <u>magna ac lacus sagittis</u>
-                            luctus. Nulla vulputate a ligula vel tempus. Vestibulum consequat
-                            erat sapien, eget pharetra est imperdiet eget. Maecenas et nibh ex. Nunc nec facilisis
-                            sapien. Praesent hendrerit nunc a dui rhoncus, a lobortis orci suscipit. Praesent faucibus
-                            pulvinar sagittis. In blandit vehicula urna, sed rutrum sem sollicitudin ut. Aenean ornare
-                            neque quis turpis hendrerit, nec convallis mauris ultrices. Curabitur rhoncus neque non
-                            ipsum dapibus, vel commodo ante bibendum. Curabitur dignissim efficitur tortor ac facilisis.
-                            Nulla eleifend faucibus pulvinar. Duis vestibulum magna sed sapien tempor sollicitudin.
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <h1>Heading 1 <span class="text-purple-dark">other text</span> </h1>
-                        <h2>Heading 2</h2>
-                        <h3>Heading 3</h3>
-                        <h4>Heading 4</h4>
-                        <h5>Heading 5</h5>
-                        <h6>Heading 6</h6>
-                    </div>
-                </div>
-                <div>
-                    <h2>Colors</h2>
-                    <p>
-                        The classes are named using the format
-                        <span class="text-white">text-{color}[-{shade}]</span> or
-                        <span class="bg-white">bg-{color}[-{shade}]</span> or
-                    </p>
-                    <ul>
-                        <li>color - refer to the table below for valid colors</li>
-                        <li>light or dark (optional) - to shade lighter for darker</li>
-                    </ul>
-                    <p>
-                        Examples: text-white, bg-white, bg-white-dark
-                    </p>
-                    <table class="full-width">
-                        <tr>
-                            <th>color</th>
-                            <th>color light</th>
-                            <th>color dark</th>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-black">text-black</td>
-                            <td class="text-center text-black-light">text-black-light</td>
-                            <td class="text-center text-black-dark">text-black-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-gray">text-gray</td>
-                            <td class="text-center text-gray-light">text-gray-light</td>
-                            <td class="text-center text-gray-dark">text-gray-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-white">text-white</td>
-                            <td class="text-center text-white-light">text-white-light</td>
-                            <td class="text-center text-white-dark">text-white-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-purple">text-purple</td>
-                            <td class="text-center text-purple-light">text-purple-light</td>
-                            <td class="text-center text-purple-dark">text-purple-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-blue">text-blue</td>
-                            <td class="text-center text-blue-light">text-blue-light</td>
-                            <td class="text-center text-blue-dark">text-blue-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-green">text-green</td>
-                            <td class="text-center text-green-light">text-green-light</td>
-                            <td class="text-center text-green-dark">text-green-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-red">text-red</td>
-                            <td class="text-center text-red-light">text-red-light</td>
-                            <td class="text-center text-red-dark">text-red-dark</td>
-                        </tr>
-                        <tr>
-                            <td class="text-center text-orange">text-orange</td>
-                            <td class="text-center text-orange-light">text-orange-light</td>
-                            <td class="text-center text-orange-dark">text-orange-dark</td>
-                        </tr>
-                    </table>
-                </div>
-                <div>
-                    <h2>Buttons</h2>
-                    <p>
-                        Buttons fill the space horizontally, so they are best used
-                        with the grid system.
-                    </p>
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="btn btn-rounded bg-red">
-                                div
-                            </div>
-                        </div>
-                        <div class="col-1">
-                            <a href="#" class="btn btn-rounded bg-orange">
-                                anchor
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <button class="btn btn-rounded bg-blue">
-                                button
-                            </button>
-                        </div>
-                        <div class="col-2">
-                            <a href="#" class="btn btn-rounded bg-yellow">
-                                anchor
-                            </a>
-                        </div>
-                        <div class="col-3">
-                            <div class="btn btn-rounded bg-green">
-                                div
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="btn btn-rounded bg-purple">
-                                anchor
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h2>Spacing</h2>
-                        <p>
-                            The classes are named using the format <span
-                                class="text-white">{property}{side}-{size}</span>.
-                        </p>
-                        <p>
-                            Where property is one of:
-                        </p>
-                        <ul>
-                            <li>m - for classes that set margin</li>
-                            <li>p - for classes that set padding</li>
-                        </ul>
-                        <p>
-                            Where sides is one of:
-                        </p>
-                        <ul>
-                            <li>blank - for all 4 sides</li>
-                            <li>t - top</li>
-                            <li>b - bottom</li>
-                            <li>l - left</li>
-                            <li>r - right</li>
-                        </ul>
-                        <p>
-                            Where size is one of:
-                        </p>
-                        <ul>
-                            <li>0 - eliminate margin or padding</li>
-                            <li>1 - 1rem</li>
-                            <li>2 - 2rem</li>
-                            <li>4 - 4rem</li>
-                            <li>6 - 6rem</li>
-                            <li>8 - 8rem</li>
-                        </ul>
-                        <p>
-                            Examples: pb-0, mt-1, etc.
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <h2>Forms</h2>
-                        <div class="row mb-1">
-                            <div class="col-4">
-                                <label class="round-left">Name</label>
-                            </div>
-                            <div class="col-8">
-                                <input class="round-right" placeholder="Name" value="Hello World" />
-                            </div>
-                        </div>
-                        <div class="row mb-1">
-                            <div class="col-4">
-                                <label class="round-left">Name</label>
-                            </div>
-                            <div class="col-8">
-                                <input class="round-right" disabled="disabled" value="Disabled" />
-                            </div>
-                        </div>
-                        <div class="row mb-1">
-                            <div class="col-4">
-                                <label class="round-left">Smart</label>
-                            </div>
-                            <div class="col-8">
-                                <select class="round-right">
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">&nbsp;</div>
-                            <div class="col-4">
-                                <div class="btn btn-rounded bg-red-dark blink-slow">
-                                    Cancel
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="btn btn-rounded bg-blue">
-                                    Save
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="side-pane">
-            <div class="panel elbow-top-right-6 pt-6 bg-purple separator-bottom">
-                <a href="#">01-239456</a>
-            </div>
-            <div class="panel pt-4 bg-purple separator-bottom">
-                <a href="#">02-239456</a>
-            </div>
-            <div class="panel pb-4 bg-purple separator-bottom">
-                <a href="#">03-239456</a>
-            </div>
-            <div class="panel pb-8 bg-purple separator-bottom">
-                <a href="#">04-239456</a>
-            </div>
-            <div class="panel pb-4 bg-purple separator-bottom full-height">
-                <a href="#">05-239456</a>
-            </div>
-        </div>
+      <div class="lcars-panel top-right mb-0 h-2">
+        <div class="label">123-2345346</div>
+      </div>
+
+      <div class="lcars-elbow bottom-left">
+      </div>
+
     </div>
+    <div class="lcars-main-pane stack-bottom-top">
+      <h1 class="page-title">
+        Documentation
+        <span class="highlight">Page</span>
+      </h1>
+
+      <div class="h-4">
+
+      </div>
+
+      <div class="lcars-bar bottom round-right h-1"></div>
+    </div>
+  </div>
+
+  <div class="lcars-container mt-0-50">
+    <div class="lcars-left-pane">
+
+      <div class="lcars-elbow top-left">
+        <div class="label">Label</div>
+      </div>
+
+      <a class="lcars-panel bottom-right" href="#buttons">
+        <div class="label">
+          Buttons
+        </div>
+      </a>
+
+      <a class="lcars-panel bottom-right bg-gray" href="#bars">
+        <div class="label">
+          Bars
+        </div>
+      </a>
+
+      <a class="lcars-panel bottom-right bg-orange" href="#elbows">
+        <div class="label">
+          Elbows
+        </div>
+      </a>
+
+      <a class="lcars-panel bottom-right bg-orange" href="#forms">
+        <div class="label">
+          Form Elements
+        </div>
+      </a>
+
+      <a class="lcars-panel bottom-right bg-blue" href="#text-colors">
+        <div class="label">
+          Text Colors
+        </div>
+      </a>
+
+      <a class="lcars-panel bottom-right bg-green" href="#background-colors">
+        <div class="label">
+          Background Colors
+        </div>
+      </a>
+
+      <div class="lcars-panel top-right full-height">
+        <div class="label">
+          546-5465464
+        </div>
+      </div>
+
+    </div>
+    <div class="lcars-main-pane">
+
+      <div class="lcars-bar top round-right h-1">
+        <div class="spacer float-right mr-1"></div>
+        <div class="label float-right mr-1 px-0-25">Hello World</div>
+      </div>
+
+      <h2 class="text-yellow" id="buttons">Buttons</h2>
+
+      <p>
+        Buttons fill the space horizontally, so they are best used
+        with the grid system.
+      </p>
+      <div class="row">
+        <div class="col-1">
+          <div class="lcars-btn rounded bg-red">
+            div
+          </div>
+        </div>
+        <div class="col-1">
+          <a href="#" class="lcars-btn rounded bg-orange">
+            anchor
+          </a>
+        </div>
+        <div class="col-2">
+          <button class="lcars-btn rounded bg-blue">
+            button
+          </button>
+        </div>
+        <div class="col-2">
+          <a href="#" class="lcars-btn rounded bg-yellow">
+            anchor
+          </a>
+        </div>
+        <div class="col-3">
+          <div class="lcars-btn rounded bg-green">
+            div
+          </div>
+        </div>
+        <div class="col-3">
+          <a href="#" class="lcars-btn rounded bg-purple">
+            anchor
+          </a>
+        </div>
+      </div>
+      <div class="row mt-1">
+        <div class="col-1">
+          <div class="lcars-btn bg-blue">
+            Square
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="lcars-btn round-left bg-blue">
+            Left
+          </div>
+        </div>
+        <div class="col-1">
+          <div class="lcars-btn round-right bg-blue">
+            Right
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-yellow" id="bars">Bars</h2>
+
+      <div class="lcars-bar round-left round-right h-1 bg-green-light">
+      </div>
+
+      <div class="lcars-bar round-left round-right h-1 bg-blue-dark">
+        <div class="label float-left ml-1 px-0-25">Left End Cap</div>
+        <div class="spacer float-left ml-1"></div>
+        <div class="spacer float-right mr-1"></div>
+        <div class="label float-right mr-1 px-0-25">Right End Cap With Separator</div>
+      </div>
+
+      <div class="lcars-bar round-left h-1 bg-yellow">
+        <div class="label float-left ml-1 px-0-25">Left Aligned Bar</div>
+        <div class="spacer float-left ml-1"></div>
+      </div>
+
+      <div class="lcars-bar round-right h-1 bg-red">
+        <div class="spacer float-right mr-1"></div>
+        <div class="label float-right mr-1 px-0-25">Right Aligned Bar</div>
+      </div>
+
+      <div class="lcars-bar round-right h-2 font-size-2 mt-1">
+        <div class="label float-right mr-2 px-1-50">Bar H-2</div>
+      </div>
+
+      <h2 class="text-yellow" id="elbows">Elbows</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="lcars-elbow top-left bg-red">
+            <div class="label">
+              123
+            </div>
+          </div>
+          <xmp>
+            <div class="lcars-elbow top-left bg-red">
+              <div class="label">
+                123
+              </div>
+            </div>
+          </xmp>
+        </div>
+        <div class="col-6">
+          <div class="lcars-elbow top-right bg-green">
+            <div class="label">
+              123
+            </div>
+          </div>
+          <xmp>
+            <div class="lcars-elbow top-right bg-green">
+              <div class="label">
+                123
+              </div>
+            </div>
+          </xmp>
+        </div>
+        <div class="col-6">
+          <xmp>
+            <div class="lcars-elbow bottom-left bg-blue">
+              <div class="label">
+                123
+              </div>
+            </div>
+          </xmp>
+          <div class="lcars-elbow bottom-left bg-blue">
+            <div class="label">
+              123
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <xmp>
+            <div class="lcars-elbow bottom-right">
+              <div class="label">
+                123
+              </div>
+            </div>
+          </xmp>
+          <div class="lcars-elbow bottom-right">
+            <div class="label">
+              123
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-yellow" id="forms">Form Elements</h2>
+
+      <div class="row mb-1">
+
+        <div class="col-6">
+          <div class="row mb-1">
+            <div class="col-4">
+              <label>Name</label>
+            </div>
+            <div class="col-4">
+              <input placeholder="Name" value="Hello World" />
+            </div>
+            <div class="col-2">
+            </div>
+          </div>
+          <div class="row mb-1">
+            <div class="col-4">
+              <label>Name</label>
+            </div>
+            <div class="col-4">
+              <input disabled="disabled" value="Disabled" />
+            </div>
+            <div class="col-2">
+            </div>
+          </div>
+          <div class="row mb-1">
+            <div class="col-4">
+              <label>Smart</label>
+            </div>
+            <div class="col-4">
+              <select>
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="row">
+            <div class="col-12 mb-1">
+              <div class="lcars-btn rounded bg-blue">
+                Save
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="lcars-btn rounded bg-red-dark blink-slow">
+                Cancel
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-yellow" id="text-colors">Text Colors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Color</th>
+            <th>Lighter</th>
+            <th>Normal</th>
+            <th>Darker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>White</td>
+            <td class="text-white-light text-center">text-white-light</td>
+            <td class="text-white text-center">text-white</td>
+            <td class="text-white-dark text-center">text-white-dark</td>
+          </tr>
+          <tr>
+            <td>Black</td>
+            <td class="text-black-light text-center">text-black-light</td>
+            <td class="text-black text-center">text-black</td>
+            <td class="text-black-dark text-center">text-black-dark</td>
+          </tr>
+          <tr>
+            <td>Gray</td>
+            <td class="text-gray-light text-center">text-gray-light</td>
+            <td class="text-gray text-center">text-gray</td>
+            <td class="text-gray-dark text-center">text-gray-dark</td>
+          </tr>
+          <tr>
+            <td>Purple</td>
+            <td class="text-purple-light text-center">text-purple-light</td>
+            <td class="text-purple text-center">text-purple</td>
+            <td class="text-purple-dark text-center">text-purple-dark</td>
+          </tr>
+          <tr>
+            <td>Violet</td>
+            <td class="text-violet-light text-center">text-violet-light</td>
+            <td class="text-violet text-center">text-violet</td>
+            <td class="text-violet-dark text-center">text-violet-dark</td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+            <td class="text-blue-light text-center">text-blue-light</td>
+            <td class="text-blue text-center">text-blue</td>
+            <td class="text-blue-dark text-center">text-blue-dark</td>
+          </tr>
+          <tr>
+            <td>Green</td>
+            <td class="text-green-light text-center">text-green-light</td>
+            <td class="text-green text-center">text-green</td>
+            <td class="text-green-dark text-center">text-green-dark</td>
+          </tr>
+          <tr>
+            <td>Red</td>
+            <td class="text-red-light text-center">text-red-light</td>
+            <td class="text-red text-center">text-red</td>
+            <td class="text-red-dark text-center">text-red-dark</td>
+          </tr>
+          <tr>
+            <td>Orange</td>
+            <td class="text-orange-light text-center">text-orange-light</td>
+            <td class="text-orange text-center">text-orange</td>
+            <td class="text-orange-dark text-center">text-orange-dark</td>
+          </tr>
+          <tr>
+            <td>Yellow</td>
+            <td class="text-yellow-light text-center">text-yellow-light</td>
+            <td class="text-yellow text-center">text-yellow</td>
+            <td class="text-yellow-dark text-center">text-yellow-dark</td>
+          </tr>
+          <tr>
+            <td>Crimson</td>
+            <td class="text-crimson-light text-center">text-crimson-light</td>
+            <td class="text-crimson text-center">text-crimson</td>
+            <td class="text-crimson-dark text-center">text-crimson-dark</td>
+          </tr>
+          <tr>
+            <td>Lavender</td>
+            <td class="text-lavender-light text-center">text-lavender-light</td>
+            <td class="text-lavender text-center">text-lavender</td>
+            <td class="text-lavender-dark text-center">text-lavender-dark</td>
+          </tr>
+          <tr>
+            <td>Lilac</td>
+            <td class="text-lilac-light text-center">text-lilac-light</td>
+            <td class="text-lilac text-center">text-lilac</td>
+            <td class="text-lilac-dark text-center">text-lilac-dark</td>
+          </tr>
+          <tr>
+            <td>Coral</td>
+            <td class="text-coral-light text-center">text-coral-light</td>
+            <td class="text-coral text-center">text-coral</td>
+            <td class="text-coral-dark text-center">text-coral-dark</td>
+          </tr>
+          <tr>
+            <td>Peach</td>
+            <td class="text-peach-light text-center">text-peach-light</td>
+            <td class="text-peach text-center">text-peach</td>
+            <td class="text-peach-dark text-center">text-peach-dark</td>
+          </tr>
+          <tr>
+            <td>Saffron</td>
+            <td class="text-saffron-light text-center">text-saffron-light</td>
+            <td class="text-saffron text-center">text-saffron</td>
+            <td class="text-saffron-dark text-center">text-saffron-dark</td>
+          </tr>
+          <tr>
+            <td>Cornflower</td>
+            <td class="text-cornflower-light text-center">text-cornflower-light</td>
+            <td class="text-cornflower text-center">text-cornflower</td>
+            <td class="text-cornflower-dark text-center">text-cornflower-dark</td>
+          </tr>
+          <tr>
+            <td>Baby Blue</td>
+            <td class="text-baby-blue-light text-center">text-baby-blue-light</td>
+            <td class="text-baby-blue text-center">text-baby-blue</td>
+            <td class="text-baby-blue-dark text-center">text-baby-blue-dark</td>
+          </tr>
+          <tr>
+            <td>Sky Blue</td>
+            <td class="text-sky-blue-light text-center">text-sky-blue-light</td>
+            <td class="text-sky-blue text-center">text-sky-blue</td>
+            <td class="text-sky-blue-dark text-center">text-sky-blue-dark</td>
+          </tr>
+          <tr>
+            <td>Amber</td>
+            <td class="text-amber-light text-center">text-amber-light</td>
+            <td class="text-amber text-center">text-amber</td>
+            <td class="text-amber-dark text-center">text-amber-dark</td>
+          </tr>
+          <tr>
+            <td>Scarlet</td>
+            <td class="text-scarlet-light text-center">text-scarlet-light</td>
+            <td class="text-scarlet text-center">text-scarlet</td>
+            <td class="text-scarlet-dark text-center">text-scarlet-dark</td>
+          </tr>
+          <tr>
+            <td>Salmon</td>
+            <td class="text-salmon-light text-center">text-salmon-light</td>
+            <td class="text-salmon text-center">text-salmon</td>
+            <td class="text-salmon-dark text-center">text-salmon-dark</td>
+          </tr>
+          <tr>
+            <td>Tangerine</td>
+            <td class="text-tangerine-light text-center">text-tangerine-light</td>
+            <td class="text-tangerine text-center">text-tangerine</td>
+            <td class="text-tangerine-dark text-center">text-tangerine-dark</td>
+          </tr>
+          <tr>
+            <td>Sunset</td>
+            <td class="text-sunset-light text-center">text-sunset-light</td>
+            <td class="text-sunset text-center">text-sunset</td>
+            <td class="text-sunset-dark text-center">text-sunset-dark</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="text-yellow" id="background-colors">Background Colors</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Color</th>
+            <th>Lighter</th>
+            <th>Normal</th>
+            <th>Darker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>White</td>
+            <td class="bg-white-light text-center text-black">bg-white-light</td>
+            <td class="bg-white text-center text-black">bg-white</td>
+            <td class="bg-white-dark text-center text-black">bg-white-dark</td>
+          </tr>
+          <tr>
+            <td>Black</td>
+            <td class="bg-black-light text-center text-black">bg-black-light</td>
+            <td class="bg-black text-center text-black">bg-black</td>
+            <td class="bg-black-dark text-center text-black">bg-black-dark</td>
+          </tr>
+          <tr>
+            <td>Gray</td>
+            <td class="bg-gray-light text-center text-black">bg-gray-light</td>
+            <td class="bg-gray text-center text-black">bg-gray</td>
+            <td class="bg-gray-dark text-center text-black">bg-gray-dark</td>
+          </tr>
+          <tr>
+            <td>Purple</td>
+            <td class="bg-purple-light text-center text-black">bg-purple-light</td>
+            <td class="bg-purple text-center text-black">bg-purple</td>
+            <td class="bg-purple-dark text-center text-black">bg-purple-dark</td>
+          </tr>
+          <tr>
+            <td>Violet</td>
+            <td class="bg-violet-light text-center text-black">bg-violet-light</td>
+            <td class="bg-violet text-center text-black">bg-violet</td>
+            <td class="bg-violet-dark text-center text-black">bg-violet-dark</td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+            <td class="bg-blue-light text-center text-black">bg-blue-light</td>
+            <td class="bg-blue text-center text-black">bg-blue</td>
+            <td class="bg-blue-dark text-center text-black">bg-blue-dark</td>
+          </tr>
+          <tr>
+            <td>Green</td>
+            <td class="bg-green-light text-center text-black">bg-green-light</td>
+            <td class="bg-green text-center text-black">bg-green</td>
+            <td class="bg-green-dark text-center text-black">bg-green-dark</td>
+          </tr>
+          <tr>
+            <td>Red</td>
+            <td class="bg-red-light text-center text-black">bg-red-light</td>
+            <td class="bg-red text-center text-black">bg-red</td>
+            <td class="bg-red-dark text-center text-black">bg-red-dark</td>
+          </tr>
+          <tr>
+            <td>Orange</td>
+            <td class="bg-orange-light text-center text-black">bg-orange-light</td>
+            <td class="bg-orange text-center text-black">bg-orange</td>
+            <td class="bg-orange-dark text-center text-black">bg-orange-dark</td>
+          </tr>
+          <tr>
+            <td>Yellow</td>
+            <td class="bg-yellow-light text-center text-black">bg-yellow-light</td>
+            <td class="bg-yellow text-center text-black">bg-yellow</td>
+            <td class="bg-yellow-dark text-center text-black">bg-yellow-dark</td>
+          </tr>
+          <tr>
+            <td>Crimson</td>
+            <td class="bg-crimson-light text-center text-black">bg-crimson-light</td>
+            <td class="bg-crimson text-center text-black">bg-crimson</td>
+            <td class="bg-crimson-dark text-center text-black">bg-crimson-dark</td>
+          </tr>
+          <tr>
+            <td>Lavender</td>
+            <td class="bg-lavender-light text-center text-black">bg-lavender-light</td>
+            <td class="bg-lavender text-center text-black">bg-lavender</td>
+            <td class="bg-lavender-dark text-center text-black">bg-lavender-dark</td>
+          </tr>
+          <tr>
+            <td>Lilac</td>
+            <td class="bg-lilac-light text-center text-black">bg-lilac-light</td>
+            <td class="bg-lilac text-center text-black">bg-lilac</td>
+            <td class="bg-lilac-dark text-center text-black">bg-lilac-dark</td>
+          </tr>
+          <tr>
+            <td>Coral</td>
+            <td class="bg-coral-light text-center text-black">bg-coral-light</td>
+            <td class="bg-coral text-center text-black">bg-coral</td>
+            <td class="bg-coral-dark text-center text-black">bg-coral-dark</td>
+          </tr>
+          <tr>
+            <td>Peach</td>
+            <td class="bg-peach-light text-center text-black">bg-peach-light</td>
+            <td class="bg-peach text-center text-black">bg-peach</td>
+            <td class="bg-peach-dark text-center text-black">bg-peach-dark</td>
+          </tr>
+          <tr>
+            <td>Saffron</td>
+            <td class="bg-saffron-light text-center text-black">bg-saffron-light</td>
+            <td class="bg-saffron text-center text-black">bg-saffron</td>
+            <td class="bg-saffron-dark text-center text-black">bg-saffron-dark</td>
+          </tr>
+          <tr>
+            <td>Cornflower</td>
+            <td class="bg-cornflower-light text-center text-black">bg-cornflower-light</td>
+            <td class="bg-cornflower text-center text-black">bg-cornflower</td>
+            <td class="bg-cornflower-dark text-center text-black">bg-cornflower-dark</td>
+          </tr>
+          <tr>
+            <td>Baby Blue</td>
+            <td class="bg-baby-blue-light text-center text-black">bg-baby-blue-light</td>
+            <td class="bg-baby-blue text-center text-black">bg-baby-blue</td>
+            <td class="bg-baby-blue-dark text-center text-black">bg-baby-blue-dark</td>
+          </tr>
+          <tr>
+            <td>Sky Blue</td>
+            <td class="bg-sky-blue-light text-center text-black">bg-sky-blue-light</td>
+            <td class="bg-sky-blue text-center text-black">bg-sky-blue</td>
+            <td class="bg-sky-blue-dark text-center text-black">bg-sky-blue-dark</td>
+          </tr>
+          <tr>
+            <td>Amber</td>
+            <td class="bg-amber-light text-center text-black">bg-amber-light</td>
+            <td class="bg-amber text-center text-black">bg-amber</td>
+            <td class="bg-amber-dark text-center text-black">bg-amber-dark</td>
+          </tr>
+          <tr>
+            <td>Scarlet</td>
+            <td class="bg-scarlet-light text-center text-black">bg-scarlet-light</td>
+            <td class="bg-scarlet text-center text-black">bg-scarlet</td>
+            <td class="bg-scarlet-dark text-center text-black">bg-scarlet-dark</td>
+          </tr>
+          <tr>
+            <td>Salmon</td>
+            <td class="bg-salmon-light text-center text-black">bg-salmon-light</td>
+            <td class="bg-salmon text-center text-black">bg-salmon</td>
+            <td class="bg-salmon-dark text-center text-black">bg-salmon-dark</td>
+          </tr>
+          <tr>
+            <td>Tangerine</td>
+            <td class="bg-tangerine-light text-center text-black">bg-tangerine-light</td>
+            <td class="bg-tangerine text-center text-black">bg-tangerine</td>
+            <td class="bg-tangerine-dark text-center text-black">bg-tangerine-dark</td>
+          </tr>
+          <tr>
+            <td>Sunset</td>
+            <td class="bg-sunset-light text-center text-black">bg-sunset-light</td>
+            <td class="bg-sunset text-center text-black">bg-sunset</td>
+            <td class="bg-sunset-dark text-center text-black">bg-sunset-dark</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
 </body>
 

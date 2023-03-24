@@ -1,4 +1,4 @@
-$lcars-font-family: 'Antonio', 'Arial Narrow', 'Avenir Next Condensed', sans-serif;
+$lcars-font-family: Antonio, sans-serif;
 
 $lighten: 15;
 $darken: 25;
@@ -14,17 +14,48 @@ $color-red: #dd4444;
 $color-orange: #ff7700;
 $color-yellow: #ffcc33;
 
+$color-crimson: #cc4499;
+$color-lavender: #ddbbff;
+$color-lilac: #cc88ff;
+// 10 text #cc77ff
+$color-coral: #ffaa90;
+$color-peach: #ffbbaa;
+$color-saffron: #ffcc66;
+$color-cornflower: #7788ff;
+$color-baby-blue: #aaaaff;
+$color-sky-blue: #88ccff;
+$color-amber: #ffaa00;
+$color-scarlet: #ff2200;
+$color-salmon: #ff8866;
+$color-tangerine: #ff9966;
+$color-sunset: #ff5555;
+
 $colors: (
     "black": $color-black,
     "gray": $color-gray,
     "white": $color-white,
     "purple": $color-purple,
     "violet": $color-violet,
-    "blue":$color-blue,
+    "blue": $color-blue,
     "green": $color-green,
     "red": $color-red,
     "orange": $color-orange,
-    "yellow":$color-yellow
+    "yellow": $color-yellow,
+
+    "crimson": $color-crimson,
+    "lavender": $color-lavender,
+    "lilac": $color-lilac,
+    "coral": $color-coral,
+    "peach": $color-peach,
+    "saffron": $color-saffron,
+    "cornflower": $color-cornflower,
+    "baby-blue": $color-baby-blue,
+    "sky-blue": $color-sky-blue,
+    "amber": $color-amber,
+    "scarlet": $color-scarlet,
+    "salmon": $color-salmon,
+    "tangerine": $color-tangerine,
+    "sunset": $color-sunset,
 );
 
 $sizes: (
@@ -34,4 +65,10 @@ $sizes: (
     "4": 4rem,
     "6": 6rem,
     "8": 8rem,
+);
+
+$fractions: (
+    "25": 0.25rem,
+    "50": 0.5rem,
+    "75": 0.75rem,
 );

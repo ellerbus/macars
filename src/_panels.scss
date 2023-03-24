@@ -1,11 +1,171 @@
-.panel {
-    display: block;
-    padding: 0.75rem;
-    width: 100%;
+$size: 4rem;
+$size_75pct: 3rem;
+$size_50pct: 2rem;
+$size_spacer: 1rem;
+$size_padding: 0.5rem;
 
-    color: $color-black;
+.lcars-elbow {
+    background-color: $color-purple;
+    position: relative;
+    width: 100%;
+    height: $size;
+    margin: 0px;
+    & .label {
+        position: absolute;
+        text-transform: uppercase;
+        color: $color-black;
+    }
+    &.top-left {
+        border-top-left-radius: $size;
+        & .label {
+            right: 0;
+            bottom: 0;
+            padding-right: $size_50pct;
+            padding-bottom: $size_padding;
+        }
+        &:after {
+            content: " ";
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: $size_75pct;
+            width: $size_spacer;
+            background-color: $color-black;
+            border-top-left-radius: $size_50pct;
+        }
+    }
+    &.top-right {
+        border-top-right-radius: $size;
+        & .label {
+            left: 0;
+            bottom: 0;
+            padding-left: $size_50pct;
+            padding-bottom: $size_padding;
+        }
+        &:after {
+            content: " ";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: $size_75pct;
+            width: $size_spacer;
+            background-color: $color-black;
+            border-top-right-radius: $size_50pct;
+        }
+    }
+    &.bottom-left {
+        border-bottom-left-radius: $size;
+        & .label {
+            right: 0;
+            top: 0;
+            padding-right: $size_50pct;
+            padding-top: $size_padding;
+        }
+        &:after {
+            content: " ";
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: $size_75pct;
+            width: $size_spacer;
+            background-color: $color-black;
+            border-bottom-left-radius: $size_50pct;
+        }
+    }
+    &.bottom-right {
+        border-bottom-right-radius: $size;
+        & .label {
+            left: 0;
+            top: 0;
+            padding-left: $size_50pct;
+            padding-top: $size_padding;
+        }
+        &:after {
+            content: " ";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: $size_75pct;
+            width: $size_spacer;
+            background-color: $color-black;
+            border-bottom-right-radius: $size_50pct;
+        }
+    }
 }
 
-a.panel:hover {
+.lcars-panel {
+    display: block;
+    background-color: $color-purple;
+    position: relative;
+    width: 100%;
+    height: $size;
+    margin: 3px 0px 3px 0px;
+    & .label {
+        position: absolute;
+        text-transform: uppercase;
+        color: $color-black;
+    }
+    &::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: $size_spacer;
+        background-color: $color-black;
+    }
+    &.top-left {
+        & .label {
+            left: 0;
+            bottom: 0;
+            padding-left: $size_50pct;
+            padding-top: $size_padding;
+        }
+        &:after {
+            left: 0;
+            top: 0;
+        }
+    }
+    &.top-right {
+        & .label {
+            right: 0;
+            top: 0;
+            padding-right: $size_50pct;
+            padding-top: $size_padding;
+        }
+        &:after {
+            right: 0;
+            top: 0;
+        }
+    }
+    &.bottom-left {
+        & .label {
+            left: 0;
+            bottom: 0;
+            padding-left: $size_50pct;
+            padding-bottom: $size_padding;
+        }
+        &:after {
+            left: 0;
+            bottom: 0;
+        }
+    }
+    &.bottom-right {
+        & .label {
+            right: 0;
+            bottom: 0;
+            padding-right: $size_50pct;
+            padding-bottom: $size_padding;
+        }
+        &:after {
+            right: 0;
+            top: 0;
+        }
+    }
+}
+a.lcars-panel:hover {
     filter: brightness(70%);
 }

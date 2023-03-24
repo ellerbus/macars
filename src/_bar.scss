@@ -1,0 +1,34 @@
+.lcars-bar {
+    background-color: $color-purple;
+    color: $color-black;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    &.bottom {
+        vertical-align: bottom;
+    }
+    &.top {
+        vertical-align: top;
+    }
+    &.round-right {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    &.round-left {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+    & .spacer {
+        width: 0.25rem;
+        height: 100%;
+        background-color: $color-black;
+    }
+    & .label {
+        text-transform: uppercase;
+        height: 100%;
+        font-size: 0.8em;
+        color: $color-purple;
+        vertical-align: middle;
+        background-color: $color-black;
+    }
+}
